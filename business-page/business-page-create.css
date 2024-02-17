@@ -3,4 +3,36 @@
     font-weight: 400;
     font-style: normal;
   }
-  
+  .navbar-light {
+    background-color: #ffffff;
+    box-shadow: 0px 8px 35px 0px rgba(69, 61, 80, 0.05);
+}
+.navbar {
+  padding: 20px 0px;
+  width: 100%;
+  z-index: 999;
+  margin-bottom: 0px;
+  transition: all 0.3s ease-in-out;
+}
+#logo-dark{
+  width: 153px;
+  padding: 10px;
+}
+#search-btn{
+  padding: 7px 35px;
+  background: #00B4D8;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+#service-section{
+  margin-left: 30%;
+  gap: 25px;
+  font-size: 15px;
+}
+#home-color{
+  color: #8338EC;
+}
+#home-color-sec:hover{
+color: #8338EC;
+}
