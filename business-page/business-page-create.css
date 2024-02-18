@@ -36,3 +36,33 @@
 #home-color-sec:hover{
 color: #8338EC;
 }
+.hero-2{
+  padding: 240px 0px 200px;
+}
+.hero-2-overlay{
+    background-image: url(../img/hero-2-overlay.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+.hero-2-content{
+  padding: 200px 0px 200px;
+}
+.hero-2-title{
+font-size: 47px;
+}
+#hero-btn{
+  color: white;
+  font-size: 14px;
+  padding: 12px 26px;
+}
