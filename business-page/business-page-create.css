@@ -36,15 +36,12 @@
 #home-color-sec:hover{
 color: #8338EC;
 }
-.hero-2{
-  padding: 240px 0px 200px;
-}
+
 .hero-2-overlay{
     background-image: url(../img/hero-2-overlay.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -65,4 +62,31 @@ font-size: 47px;
   color: white;
   font-size: 14px;
   padding: 12px 26px;
+}
+.section-about{
+  position: relative;
+  padding: 100px 0px 100px;
+}
+.text-senter{
+  text-align:center!important;
+}
+.text-muted {
+  color: #a7a9c0!important;
+}
+#image-size{
+  max-width: 30%;
+}
+.features-bg-color{
+  background-color: #f9f9f9 !important;
+  margin-top: 80px;
+}
+.title-color{
+  color: #acacac;
+}
+.features-head p{
+color: #b3b3b3;
+}
+#chang-icon{
+  color: #9a64ff;
+  font-size: 22px;
 }
