@@ -90,3 +90,138 @@ color: #b3b3b3;
   color: #9a64ff;
   font-size: 22px;
 }
+.chack{
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+#chack-color{
+  background: rgb(148, 234, 234);
+  padding: 6px;
+  border-radius: 22px;
+  color: #0095e6;
+}
+#border-use{
+  border-bottom: 1px solid #c8c8c8;
+}
+.linf-option a{
+  text-decoration: none !important;
+}
+.text-primary{
+  color: #9a64ff !important;
+}
+.top-use{
+  margin-top: 120px !important;
+}
+#size-1{
+  max-width: 100%;
+}
+.features-img img{
+  transform: perspective(550px) rotateX(2deg) rotateY(10deg);
+  margin-top: 50px;
+}
+.font-color-use{
+  color: #a0a0a0;
+}
+.client-satisfied-review-section{
+  margin-top: 120px;
+}
+.satisfied-img{
+  max-width: 8%;
+}
+#client-satisfied{
+  box-shadow: 0px 1px 9px -2px #ffffff;
+  border-radius: 9px;
+  background: #f9f9f9;
+}
+.client-name{
+  display: flex;
+  justify-content: space-around;
+}
+.star{
+  color: #ffde06;
+}
+.clients-logo{
+  margin-top: 120px;
+  text-align: center;
+}
+.build-section{
+  background-color: #8338EC;
+}
+#color{
+  color: #ffffff;
+}
+.build-title{
+  padding: 10px 19px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  background-color: #00B4D8;
+}
+.plan p{
+  color: #b3b3b3;
+  }
+  .domain-started{
+    border: none;
+    box-shadow: 0px 8px 35px 0px rgba(69, 64, 64, 0.123);
+    border-radius: 7px;
+    text-align: center;
+  }
+  .border-style{
+    border: none;
+  }
+.text-muted{
+  font-size: 16px;
+}
+.mtbd{
+  color: #ffffff;
+}
+.question{
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+.fa-question{
+  background: #82576e52;
+    /* width: 38px; */
+    border-radius: 48px;
+    padding: 8px;
+    font-size: 20px;
+    color: black;
+}
+.title{
+  margin-left: 47px;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #17c6e9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #25aebd;
+}
+.contact-section{
+   border: none;
+    box-shadow: 0px 8px 35px 0px rgb(69 61 80 / 17%);
+    border-radius: 7px;
+}
+.card{
+  box-shadow: 0px 8px 35px 0px rgba(69, 61, 80, 0.05);
+  border-radius: 7px;
+}
+.name-email{
+  display: flex;
+}
