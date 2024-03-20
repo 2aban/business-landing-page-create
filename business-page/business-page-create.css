@@ -147,6 +147,10 @@ color: #b3b3b3;
 }
 .build-section{
   background-color: #8338EC;
+  margin-top: 110px;
+}
+#btn-style{
+  color: white;
 }
 #color{
   color: #ffffff;
@@ -162,10 +166,12 @@ color: #b3b3b3;
   color: #b3b3b3;
   }
   .domain-started{
-    border: none;
     box-shadow: 0px 8px 35px 0px rgba(69, 64, 64, 0.123);
     border-radius: 7px;
     text-align: center;
+  }
+  .card-section h3{
+    margin-top: 20px;
   }
   .border-style{
     border: none;
@@ -176,18 +182,20 @@ color: #b3b3b3;
 .mtbd{
   color: #ffffff;
 }
+.question-section{
+  margin-top: 130px;
+}
 .question{
   display: flex;
   gap: 20px;
   align-items: flex-end;
 }
 .fa-question{
-  background: #82576e52;
-    /* width: 38px; */
+  background: #9b70bc40;
     border-radius: 48px;
-    padding: 8px;
+    padding: 2px 12px;
     font-size: 20px;
-    color: black;
+    color: #9b70bc;
 }
 .title{
   margin-left: 47px;
@@ -224,4 +232,23 @@ input[type=submit]:hover {
 }
 .name-email{
   display: flex;
+}
+.footer{
+  padding: 80px 0px 60px;
+  margin-top: 100px;
+}
+.footer-list-menu li a{
+  text-decoration: none;
+  color: gray;
+  margin-top: 12px;
+}
+.footer-list-menu li a:hover{
+  color: white;
+  text-transform: 1;
+}
+.list-inline-item{
+  background: white;
+  border-radius: 23px;
+  padding: 5px 9px;
+  
 }
